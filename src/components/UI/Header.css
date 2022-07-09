@@ -1,0 +1,26 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 90px;
+}
+
+.main_logo {
+  display: flex;
+  align-items: center;
+}
+
+.Crystallize {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.header_menu {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 15px;
+}
+
+.header_menu__item {
+  cursor: pointer;
+}

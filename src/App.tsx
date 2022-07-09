@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/UI/Header';
+import Info from './components/UI/Info';
 
 function App() {
   return (
     <div className="App">
+      <Header logo="Crystallize" menu="Menu"/>
+      <Info></Info>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
