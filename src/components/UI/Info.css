@@ -1,0 +1,21 @@
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info_title {
+  width: 100px;
+  font-weight: bold;
+  border-bottom: 1px gray solid;
+  margin: auto;
+}
+
+.info_article__date {
+  text-align: right;
+  font-size: small;
+  font-weight: lighter;
+}
+
+.info_article {
+  font-size: small;
+}
