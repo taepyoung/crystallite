@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+npm install 명령어로 nodejs의 의존성들을 모두 다운로드 받습니다.
+
 ### `npm start`
 
 Runs the app in the development mode.\
