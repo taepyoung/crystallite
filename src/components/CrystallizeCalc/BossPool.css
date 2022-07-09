@@ -1,0 +1,8 @@
+.boss_pool {
+    display: flex;
+}
+
+.boss_word {
+    font-size: larger;
+    font-weight: bold;
+}

@@ -14,7 +14,7 @@ const Header: React.FC<HeaderComponent> = ({ logo, menu }) => {
   return (
     <div className="header">
       <span id="main_logo" className="main_logo">
-        <img alt="main_logo" />
+        <img src="./image.jpg" alt="main_logo" />
         <div className="Crystallize">{logo}</div>
       </span>
       <ul className="header_menu">

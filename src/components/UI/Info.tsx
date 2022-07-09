@@ -5,7 +5,7 @@ const Info = () => {
     <div className="info">
       <div className="info_title">Infomation</div>
       <div>
-        <img alt="info_image" />
+        <img src="./image.jpg" alt="info_image" />
         <h5>📄시그너스 리마스터 공개</h5>
         <div className="info_article__date">22.06.28</div>
         <p className="info_article">
@@ -15,7 +15,7 @@ const Info = () => {
         </p>
       </div>
       <div>
-        <img alt="info_image" />
+        <img src="./image.jpg" alt="info_image" />
         <h5>📄이그니션 업데이트 패치 1.3</h5>
         <div className="info_article__date">22.06.25</div>
         <p className="info_article">

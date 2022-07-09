@@ -1,0 +1,46 @@
+.calc_row {
+  display: flex;
+  height: 124px;
+  gap: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.calc_row__data_area {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: auto;
+}
+
+.calc_row__data {
+  text-align: left;
+}
+
+.inserted_crystal {
+  font-size: large;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.maximum_crystal {
+  font-size: small;
+  font-weight: lighter;
+}
+
+.calc_row__button_area {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.calc_row__reset {
+  color: white;
+  background-color: green;
+}
+
+.calc_row__delete {
+  color: white;
+  background-color: red;
+}
