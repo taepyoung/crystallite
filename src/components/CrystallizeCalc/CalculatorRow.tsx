@@ -1,13 +1,10 @@
-import Boss from "./Boss";
-import "./CalculatorRow.css";
+import Boss from './Boss'
+import './CalculatorRow.css'
 
 const CalculatorRow = () => {
   return (
     <div className="calc_row">
-      <Boss></Boss>
-      <Boss></Boss>
-      <Boss></Boss>
-      <Boss></Boss>
+      <div>{/* <Boss></Boss> */}</div>
       <div className="calc_row__data_area">
         <span className="calc_row__data">
           🔮결정석:
@@ -21,7 +18,7 @@ const CalculatorRow = () => {
         <button className="calc_row__delete">delete</button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default CalculatorRow;
+export default CalculatorRow

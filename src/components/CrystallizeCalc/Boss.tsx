@@ -1,7 +1,23 @@
-import "./Boss.css";
+import './Boss.css'
+import React, { useState } from 'react'
+import internal from 'stream'
+import { idText } from 'typescript'
 
-const Boss = () => {
-  return <span className="boss_card">Boss</span>;
-};
+interface Bosses {
+  boss: {
+    id: number
+    name: string
+    image: string
+  }
+}
 
-export default Boss;
+const Boss: React.FC<Bosses> = ({ boss }) => {
+  return (
+    <div>
+      <img src={require(boss.image)}></img>
+      <span className="boss_card">{boss.name}</span>
+    </div>
+  )
+}
+
+export default Boss
